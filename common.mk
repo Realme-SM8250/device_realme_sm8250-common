@@ -75,6 +75,10 @@ TARGET_USES_FOD_ZPOS := true
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Dolby Manager
+PRODUCT_PACKAGES += \
+    DolbyManager
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
