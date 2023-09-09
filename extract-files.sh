@@ -69,6 +69,9 @@ function blob_fixup() {
         odm/etc/init/wlchgmonitor.rc)
             sed -i "/disabled/d;/seclabel/d" "${2}"
             ;;
+        odm/etc/dolby/multimedia_dolby_dax_default.xml)
+            sed -i "/volume-leveler-enable/ s/true/false/g" "${2}"
+            ;;
         odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml)
             sed -ni "/android.hardware.biometrics.fingerprint/{x;s/hal format/hal override=\"true\" format/;x};x;1!p;\${x;p}" "${2}"
             ;;

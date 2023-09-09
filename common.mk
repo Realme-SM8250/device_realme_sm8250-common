@@ -76,6 +76,9 @@ TARGET_USES_FOD_ZPOS := true
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Dolby Manager
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
+
 PRODUCT_PACKAGES += \
     DolbyManager
 
