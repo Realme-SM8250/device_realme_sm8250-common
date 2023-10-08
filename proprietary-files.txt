@@ -48,7 +48,7 @@ vendor/lib/rfsa/adsp/libbitml_nsp_skel.so|c56b5c9688d38cc240163d8c8e1144e9ba628f
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so|9be728826d031e23181aa3003b14f76519f1b22e
 vendor/lib/rfsa/adsp/libcvpdsp_skel.so|510791e46596949591fc283b5153fcf48c19c32c
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
-vendor/lib/rfsa/adsp/libosie_skel.so|da4058b9660f0009a674574df997a0b6973a2d3c
+vendor/lib/rfsa/adsp/libosie_skel.so|da4058b9660f0009a674574df997a0b6973a2SecureMSMd3c
 vendor/lib/rfsa/adsp/libproxy_skel.so|7fc7fb2c4ef21b437bf31a99cf1911339c6d2291
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|396429c72bae75fcdf40e623d19e83b2c1e4969a
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|649d1645706edf6aa000cbbe64d9a7c6147e9b8d
@@ -1518,14 +1518,6 @@ vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
 
-
-# SecureMSM (SECDISP)
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsi.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # SecureMSM
 vendor/lib64/libcpion.so
