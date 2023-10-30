@@ -1686,8 +1686,3 @@ vendor/lib64/libtrustedapploader.so|030366cf9b29f9beacea371f1c2a8781664be851
 
 # WiFi
 vendor/bin/cnss-daemon
-
-# WiFi - OOS
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:vendor/etc/wifi/WCNSS_qcom_cfg.ini|70417efc02051a7c74fde86dcc2ebf9f35f2c36f
-vendor/etc/wifi/p2p_supplicant_overlay.conf|26d993b8e1f4559de871580b14f7310e6efd1626
-vendor/etc/wifi/wpa_supplicant_overlay.conf|c6c8338f71e8c27d9cea1abab66d317c9e32bf29
