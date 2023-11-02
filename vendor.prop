@@ -55,7 +55,10 @@ ro.surface_flinger.set_touch_timer_ms=4000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # Incremental FS
-ro.incremental.enable=1
+ro.incremental.enable=yes
+
+# FS-verity
+ro.apk_verity.mode=2
 
 # Media
 vendor.media.vpp.enable=0
