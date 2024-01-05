@@ -54,7 +54,11 @@ AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
 
 PRODUCT_COPY_FILES += \
     $(AUDIO_HAL_DIR)/configs/kona/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
-    $(AUDIO_HAL_DIR)/configs/kona/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt
+    $(AUDIO_HAL_DIR)/configs/kona/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
+    $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
+    $(LOCAL_PATH)/configs/audio/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+    $(LOCAL_PATH)/configs/audio/audio_effects.conf:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.conf 
 
 
 PRODUCT_PACKAGES += \
@@ -183,9 +187,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
     
-# Touch
-TARGET_POWER_FEATURE_EXT_LIB := //$(COMMON_PATH):libpowerfeature_ext_realme_kona
-
 # QTI
 TARGET_BOARD_PLATFORM := kona
 

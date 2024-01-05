@@ -145,6 +145,9 @@ TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
+# Touch
+TARGET_POWER_FEATURE_EXT_LIB := //$(COMMON_PATH):libpowerfeature_ext_realme_kona
+
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
