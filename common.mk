@@ -137,15 +137,8 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
-# IPACM
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
-
 # Init
 PRODUCT_PACKAGES += \
-    init.oplus.hw.rc \
-    init.oplus.hw.rc.recovery \
     init.oplus.rc \
     init.oplus.sh \
     init.target.rc \
@@ -157,10 +150,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 GENERIC_ODM_IMAGE := true
-
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
 
 # Neural networks
 PRODUCT_PACKAGES += \
@@ -181,12 +170,7 @@ PRODUCT_PACKAGES += \
 # Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service \
-    android.hardware.power@1.2.vendor \
-    vendor.qti.hardware.perf@2.2.vendor
-    
+
 # QTI
 TARGET_BOARD_PLATFORM := kona
 
