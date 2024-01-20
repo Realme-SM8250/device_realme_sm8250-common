@@ -38,29 +38,35 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio@4.0-impl \
     android.hardware.audio@7.1-impl \
-    android.hardware.audio@7.1-util \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.soundtrigger@2.3-impl 
+    
+PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    audio.primary.kona \
     audio.r_submix.default \
-    audio.usb.default \
     audio_amplifier.kona \
-    liba2dpoffload \
+    audio.usb.default \
+    libaudiopreprocessing \
     libbatterylistener \
+    libbundlewrapper \
+    libcirrusspkrprot \
     libcomprcapture \
-    libexthwplugin \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
     libhdmiedid \
+    libhdmipassthru \
     libhfp \
+    libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libreverbwrapper \
     libsndmonitor \
     libspkrprot \
-    libssrec \
+    libtinycompress \
+    libvisualizer \
     libvolumelistener
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio
