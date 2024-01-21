@@ -121,9 +121,6 @@ vendor.qcom.bluetooth.soc=hastings
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
-# Crypto
-ro.crypto.volume.filenames_mode=aes-256-cts
-
 # Display
 ro.vendor.display.sensortype=2
 vendor.display.enable_async_powermode=1
