@@ -1,8 +1,11 @@
 # Audio
+ro.audio.monitorOrientation=true
+ro.audio.monitorRotation=true
 af.fast_track_multiplier=1
-
-# gfx acceleration
-ro.config.avoid_gfx_accel=true
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+ro.af.client_heap_size_kbyte=7168
 
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
